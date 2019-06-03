@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="300dp"
+    android:background="@color/DlgBackColor"
+    >
+
+    <!--header-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="12dp"
+        android:background="@color/DlgTextColor"
+        >
+        <TextView
+            android:id="@+id/okay_dlg_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/DlgBackColor"
+            android:text="123" />
+    </LinearLayout>
+
+
+    <!--fields-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="11dp"
+        >
+        <TextView
+            android:id="@+id/okay_dlg_message"
+            style="@style/DlgText" android:text=""/>
+    </LinearLayout>
+
+
+    <!--buttons-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="11dp"
+        >
+        <Button style="@style/MyButton"
+            android:id="@+id/okay_dlg_button"
+            android:text="okay"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

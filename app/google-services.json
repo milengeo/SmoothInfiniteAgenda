@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1007031464621",
+    "firebase_url": "https://sevire-8d593.firebaseio.com",
+    "project_id": "sevire-8d593",
+    "storage_bucket": "sevire-8d593.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007031464621:android:0ddce171a4fff4f5",
+        "android_client_info": {
+          "package_name": "com.rustero.sevire.free"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007031464621-616mirtc1t74nuv67uh0alg94e03sk4n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3whmBWgPx2oXUuzzeaOBQJGgWr2Vl4Tg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007031464621:android:5d6b29bbdbadb846",
+        "android_client_info": {
+          "package_name": "com.rustero.aworker1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007031464621-616mirtc1t74nuv67uh0alg94e03sk4n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3whmBWgPx2oXUuzzeaOBQJGgWr2Vl4Tg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

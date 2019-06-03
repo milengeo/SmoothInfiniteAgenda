@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="300dp"
+    android:background="@color/DlgBackColor"
+    >
+
+    <!--header-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="12dp"
+        android:background="@color/DlgTextColor"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/DlgBackColor"
+            android:text="Find free slot" />
+    </LinearLayout>
+
+
+    <!--subtitle-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="12dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/DlgTextColor"
+            android:text="In next four weeks, 09:00-17:00" />
+    </LinearLayout>
+
+
+
+    <!--fields-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:padding="4dp"
+            >
+            <TextView style="@style/DlgText" android:text="@string/from_date"/>
+            <RelativeLayout style="@style/DlgSpinnerLayout">
+                <Spinner style="@style/DlgSpinnerWidget"
+                    android:popupBackground="@color/MySpinnerPopupColor"
+                    android:id="@+id/spinner_from"/>
+                <ImageView style="@style/DlgSpinnerArrow"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:padding="4dp"
+            >
+            <TextView style="@style/DlgText" android:text="@string/duration"/>
+            <RelativeLayout style="@style/DlgSpinnerLayout">
+                <Spinner style="@style/DlgSpinnerWidget"
+                    android:popupBackground="@color/MySpinnerPopupColor"
+                    android:id="@+id/spinner_span"/>
+                <ImageView style="@style/DlgSpinnerArrow"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <!--buttons-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="11dp"
+        >
+        <Button style="@style/MyButton"
+            android:id="@+id/find_dlg_cancel"
+            android:text="cancel"
+            />
+        <Button style="@style/MyButton"
+            android:id="@+id/find_dlg_okay"
+            android:text="okay"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

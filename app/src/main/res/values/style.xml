@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionButtonStyle">@style/MyActionButtonStyle</item>
+        <item name="android:spinnerDropDownItemStyle">@style/MySpinnerDropDownStyle</item>
+    </style>
+
+    <style name="MySpinnerDropDownStyle" parent="android:style/Widget.DropDownItem.Spinner">
+        <item name="android:background">@drawable/spinner_selector</item>
+        <item name="android:checkMark">@null</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+
+    <style name="MyActionButtonStyle" parent="AppBaseTheme">
+        <item name="android:minWidth">77dp</item>
+    </style>
+
+    <style name="MyButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/my_button_shape_1</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="ItemDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/ItemDivider</item>
+    </style>
+
+    <style name="DlgText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/DlgTextColor</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="DlgSpinnerLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">@drawable/round_box_5g</item>
+    </style>
+
+    <style name="DlgSpinnerWidget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:spinnerMode">dropdown</item>
+        <item name="android:paddingEnd">18dp</item>
+    </style>
+
+    <style name="DlgSpinnerArrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:src">@drawable/menu_down</item>
+    </style>
+
+
+
+</resources>

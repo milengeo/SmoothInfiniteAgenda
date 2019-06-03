@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".agenda.activity.MainActivity">
+
+    <item android:id="@+id/action_permission"
+        android:title="@string/permission"
+        android:orderInCategory="11"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_today"
+        android:title="@string/today"
+        android:orderInCategory="22"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_find"
+        android:title="@string/find"
+        android:orderInCategory="33"
+        app:showAsAction="always"/>
+
+</menu>
